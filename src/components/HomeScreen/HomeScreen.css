@@ -1,0 +1,93 @@
+.content{
+    background: rgb(220, 208, 208);
+    height: 100vh;
+}
+.search-container{
+  flex-direction:column;
+  max-width: 800px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+  padding-top: 70px;
+  
+}
+.search-results {
+    display: flex;
+    height: 70px;
+    background: transparent;
+    box-shadow: 0 0 10px 5px rgba(122, 17, 129, 0.5); /* change this line to the desired shadow */
+    color: rgb(36, 31, 31);
+    width: 50%;
+    height: 20px;
+    justify-content: space-between;
+    margin-top: 50px;
+    outline: none;
+    border: none;
+    border-radius: 5px 5px 5px 5px; /* change this line to the desired radius */
+    height: 50px;
+    width: 50%;
+    width: 100%;
+    margin-top: 20px;
+  }
+  .company {
+    padding: 10px;
+    background: transparent;
+    margin: 10px;
+    height: auto;
+    width: 80%;
+  }
+  .search{
+    margin: auto 9px;
+  }
+  .search .symbol {
+    font-weight: bold;
+    margin-left: 2px;
+    color: rgb(255, 8, 8);
+  }
+  
+  .search .name {
+    margin-left: 160px;
+    color: rgb(38, 13, 105);
+  }
+  
+  .search .price {
+    margin-left: 100px;
+    margin-right: 25px;
+    color: azure;
+  }
+
+  .search i {
+    color: rgb(51, 53, 10);
+   font-size: 24px;
+   cursor: pointer;
+ }
+
+ i:hover{
+    font-size: 25px;
+ }
+  
+    
+
+.stockbox{
+    color: white;
+    text-align: center;
+    padding-top: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+input{
+    height: 50px;
+    width: 50%;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+}
+
+input:hover {
+    box-shadow: 20px 20px 20px 20PX rgba(16, 89, 137, 0.2);
+  }
+  

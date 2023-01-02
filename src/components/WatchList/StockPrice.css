@@ -1,0 +1,31 @@
+.price-container{
+    margin-top:  30px ;
+    height: 60px;
+    width: 80%;
+    max-width: 600px;
+    background-color: #fff;
+    color: black;
+    padding: 5px;
+    line-height: 1.5;
+    border-radius: 5px;     
+    display: flex;
+    align-items: center;
+}
+
+.stock_img{
+    margin-left: 5px;
+    width: 35px;
+
+}
+
+.stock_price{
+    color: rgb(215, 112, 22);
+}
+
+.stockPrice_info{
+    flex: 1;
+}
+
+.stocksPrice{
+ color:black;
+}

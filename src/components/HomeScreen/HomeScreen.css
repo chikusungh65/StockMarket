@@ -15,8 +15,7 @@
   .search-results {
     margin-top: 40px;
     height: 60px;
-    width: 80%;
-    max-width: 600px;
+    width: 100%;
     background-color: rgb(242, 248, 246);
     color: black;
     padding: 5px;
@@ -27,6 +26,7 @@
     box-shadow: 0 0 10px 5px rgba(122, 17, 129, 0.5);
     border-radius: 5px 5px 5px 5px;
     justify-content: space-evenly;
+    text-transform: uppercase;
   }
   
   .company {
@@ -35,32 +35,33 @@
     height: auto;
   }
   
-  .search {
-    display: flex;
-    line-height: 45px;
-    text-transform: uppercase;
-    align-items: center;
-  }
-  
   .symbol {
     font-weight: bold;
     color: rgb(255, 8, 8);
+    margin-left: 20px;
+    padding-right: 30px;
   }
   
   .name {
     color: rgb(38, 13, 105);
+    padding-left: 10px;
+    padding-right: 11px;
+    margin:0 auto;
+
   }
   
   .price {
     font-size: 24px;
     font-weight: bold;
     color: rgb(105, 10, 177);
+    padding-right: 15px;
   }
   
   .search i {
     color: rgb(51, 53, 10);
     font-size: 24px;
     cursor: pointer;
+    padding-left: 20px;
   }
   
   i:hover {

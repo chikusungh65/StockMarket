@@ -74,14 +74,14 @@ const HomeScreen = () => {
                     <div >
 
                         {searchResults.map(result => (
-                            <div className='search-results'>
-                                <div className='search' key={result.symbol} onClick={() => handleResultClick(result)}>
-                                    <span className='symbol'>{result.symbol}</span>
-                                    <span className='name'>{result.name}</span>
-                                    <span className='price'>${result.latestPrice}</span>
-                                    <i className='fa fa-plus'></i>
-                                </div>
+
+                            <div className='search-results' key={result.symbol} onClick={() => handleResultClick(result)}>
+                                <span className='symbol'>{result.symbol}</span>
+                                <span className='name'>{result.name}</span>
+                                <span className='price'>${result.latestPrice}</span>
+                                <i className='fa fa-plus'></i>
                             </div>
+
 
                         ))}
                     </div>

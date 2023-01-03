@@ -71,7 +71,7 @@ const HomeScreen = () => {
                 <input type="text" placeholder="Search for a company (e.g. Apple, Microsoft)" value={search} onChange={handleSearchChange} />
                 {
                     searchResults.length > 0 &&
-                    <div className="company">
+                    <div >
 
                         {searchResults.map(result => (
                             <div className='search-results'>
@@ -91,4 +91,4 @@ const HomeScreen = () => {
         </div>
     );
 }
-export default HomeScreen;  
+export default HomeScreen;

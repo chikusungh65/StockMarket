@@ -1,60 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
 .content{
     background: rgb(220, 208, 208);
     height: 100vh;
 }
 .search-container{
-  flex-direction:column;
-  max-width: 800px;
-  margin: 0 auto;
-  display: flex;
-  justify-content: space-between; 
-  align-items: center;
-  padding-top: 70px;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   color: rgb(95, 95, 148);
+   justify-content: space-around;
   
 }
 .search-results {
+    margin-top:  40px ;
+    height: 60px;
+    width: 80%;
+    max-width: 600px;
+    background-color: rgb(242, 248, 246);
+    color: black;
+    padding: 5px;
+    line-height: 1.5;
+    border-radius: 5px;     
     display: flex;
-    height: 70px;
-    background: transparent;
-    box-shadow: 0 0 10px 5px rgba(122, 17, 129, 0.5); /* change this line to the desired shadow */
-    color: rgb(36, 31, 31);
-    width: 50%;
-    height: 20px;
-    justify-content: space-between;
-    margin-top: 50px;
-    outline: none;
-    border: none;
-    border-radius: 5px 5px 5px 5px; /* change this line to the desired radius */
-    height: 50px;
-    width: 50%;
-    width: 100%;
-    margin-top: 20px;
+    align-items: center;
+    box-shadow: 0 0 10px 5px rgba(122, 17, 129, 0.5);
+    border-radius: 5px 5px 5px 5px;
+    justify-content: center;
   }
   .company {
-    padding: 10px;
+    display: flex;
     background: transparent;
-    margin: 10px;
     height: auto;
-    width: 80%;
+   
   }
   .search{
-    margin: auto 9px;
+    display: flex;
+    line-height: 45px;
+    text-transform: uppercase;
+    align-items: center;
   }
-  .search .symbol {
+   .symbol {
     font-weight: bold;
-    margin-left: 2px;
     color: rgb(255, 8, 8);
   }
   
-  .search .name {
-    margin-left: 160px;
+  .name {
     color: rgb(38, 13, 105);
   }
   
-  .search .price {
-    margin-left: 100px;
-    margin-right: 25px;
-    color: azure;
+  .price {
+    font-size: 24px;
+    font-weight: bold;
+    color: rgb(105, 10, 177);
   }
 
   .search i {
@@ -89,5 +92,17 @@ input{
 
 input:hover {
     box-shadow: 20px 20px 20px 20PX rgba(16, 89, 137, 0.2);
+  }
+  
+  @media (max-width: 768px) {
+    .search-container {
+      flex-direction: column;
+    }
+    .search-results {
+      width: 100%;
+    }
+    input {
+      width: 60%;
+    }
   }
   

@@ -1,24 +1,19 @@
-*{
-    margin: 0;
-    padding: 0;
-}
-
-.content{
+.content {
     background: rgb(220, 208, 208);
     height: 100vh;
-}
-.search-container{
+  }
+  
+  .search-container {
     color: white;
     text-align: center;
     display: flex;
     flex-direction: column;
     align-items: center;
-   color: rgb(95, 95, 148);
-   justify-content: space-around;
+    color: rgb(95, 95, 148);
+  }
   
-}
-.search-results {
-    margin-top:  40px ;
+  .search-results {
+    margin-top: 40px;
     height: 60px;
     width: 80%;
     max-width: 600px;
@@ -26,26 +21,28 @@
     color: black;
     padding: 5px;
     line-height: 1.5;
-    border-radius: 5px;     
+    border-radius: 5px;
     display: flex;
     align-items: center;
     box-shadow: 0 0 10px 5px rgba(122, 17, 129, 0.5);
     border-radius: 5px 5px 5px 5px;
-    justify-content: center;
+    justify-content: space-evenly;
   }
+  
   .company {
     display: flex;
     background: transparent;
     height: auto;
-   
   }
-  .search{
+  
+  .search {
     display: flex;
     line-height: 45px;
     text-transform: uppercase;
     align-items: center;
   }
-   .symbol {
+  
+  .symbol {
     font-weight: bold;
     color: rgb(255, 8, 8);
   }
@@ -59,40 +56,39 @@
     font-weight: bold;
     color: rgb(105, 10, 177);
   }
-
+  
   .search i {
     color: rgb(51, 53, 10);
-   font-size: 24px;
-   cursor: pointer;
- }
-
- i:hover{
-    font-size: 25px;
- }
+    font-size: 24px;
+    cursor: pointer;
+  }
   
-    
-
-.stockbox{
+  i:hover {
+    font-size: 25px;
+  }
+  
+  .stockbox {
     color: white;
     text-align: center;
     padding-top: 5%;
     display: flex;
     flex-direction: column;
     align-items: center;
-}
-
-
-input{
+  }
+  
+  input {
     height: 50px;
     width: 50%;
     border-radius: 5px;
     outline: none;
     border: none;
-}
-
-input:hover {
+  }
+  
+  input:hover {
     box-shadow: 20px 20px 20px 20PX rgba(16, 89, 137, 0.2);
   }
+
+  
   
   @media (max-width: 768px) {
     .search-container {
